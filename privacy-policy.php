@@ -20,7 +20,7 @@ ob_start();
 </section>
 <!-- end: Breadcrumb Section -->
  <!-- start: Privacy Policy Section -->
-<section class="terms-and-conditions ">
+<section class="terms-and-conditions section-gap ">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10">

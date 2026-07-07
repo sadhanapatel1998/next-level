@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <option value="Partnered Support Model">Partnered Support Model</option>
                         <option value="Digital Channel Partners">Digital Channel Partners</option>
                         <option value="App & Website Development">App & Website Development</option>
-                        <option value="Creative Communication"> Creative Communication</option>
+                        <!-- <option value="Creative Communication"> Creative Communication</option> -->
                         <option value="SEO Service"> SEO Service</option>
                         <option value="Social Media"> Social Media</option>
                         <option value="Operational Strategy"> Operational Strategy</option>

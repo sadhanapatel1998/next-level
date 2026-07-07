@@ -41,14 +41,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 </li>
 
                 <li>
-                    <a href="creative-communication.php"
-                        class="<?= ($current_page == 'creative-communication.php') ? 'active' : ''; ?>">
-                        Creative Communication
-                        <span class="icon"><i class="tji-arrow-right"></i></span>
-                    </a>
-                </li>
-
-                <li>
                     <a href="seo.php"
                         class="<?= ($current_page == 'seo.php') ? 'active' : ''; ?>">
                         SEO Services

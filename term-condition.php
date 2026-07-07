@@ -21,112 +21,176 @@ ob_start();
 <!-- end: Breadcrumb Section -->
 
 <!-- start: Privacy Policy Section -->
-<section class="terms-and-conditions ">
+<section class="terms-and-conditions section-gap">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-10">
+            <div class="col-lg-10">
                 <div class="terms-and-conditions-wrapper">
 
-
-                    <!-- 1: Information We Collect -->
-                    <div id="info-we-collect">
-                        <h3 class="title title-anim">1. Acceptance of Terms</h3 class="title title-anim">
-                        <p>By accessing the website at <a href="www.NXT Level.nz">www.NXT Level.nz</a> or engaging our professional services, you confirm that you
-                            have read, understood, and agree to be bound by these Terms & Conditions. Continued use of our services
-                            constitutes ongoing acceptance of any updates. </p>
+                    <!-- 1 -->
+                    <div id="acceptance-of-terms">
+                        <h3 class="title title-anim">1. Acceptance of Terms</h3>
+                        <p>
+                            By accessing the website at
+                            <a href="https://www.nxtlevel.nz" target="_blank">www.nxtlevel.nz</a>
+                            or engaging our professional services, you confirm that you have read,
+                            understood, and agree to be bound by these Terms & Conditions.
+                            Continued use of our services constitutes ongoing acceptance of any updates.
+                        </p>
                     </div>
 
-                    <div id="how-we-use">
-                        <h3 class="title title-anim">2. Use of Our Services:</h3 class="title title-anim">
-                        <p>You agree to use our services only for lawful purposes. You shall not: </p>
+                    <!-- 2 -->
+                    <div id="use-of-services">
+                        <h3 class="title title-anim">2. Use of Our Services</h3>
+
+                        <p>You agree to use our services only for lawful purposes. You shall not:</p>
+
                         <ul>
                             <li>Violate any applicable local, national, or international laws.</li>
-                            <li> Infringe upon the rights of others or interfere with the security and performance of our systems.</li>
-                            <li> Reverse engineer or attempt to extract source code from our digital assets. </li>
+                            <li>Infringe upon the rights of others or interfere with the security and performance of our
+                                systems.</li>
+                            <li>Reverse engineer or attempt to extract source code from our digital assets.</li>
                         </ul>
                     </div>
 
-                    <div id="data-sharing">
-                        <h3 class="title title-anim">3. Intellectual Property: </h3 class="title title-anim">
+                    <!-- 3 -->
+                    <div id="intellectual-property">
+                        <h3 class="title title-anim">3. Intellectual Property</h3>
+
                         <ul>
-                            <li><strong>Company Ownership:</strong>All branding, text, and original design elements on this website are the exclusive property of NXT Level Limited. </li>
-                            <li><strong>Client Deliverables:</strong>Upon receipt of full payment for design or consulting services, the agreed-upon final deliverables shall be transferred to the client. NXT Level Limited retains a non-exclusive right to feature these works in  our professional portfolio. </li>
-                            
+                            <li>
+                                <strong>Company Ownership:</strong>
+                                All branding, text, and original design elements on this website are the exclusive
+                                property of NXT Level Limited.
+                            </li>
+
+                            <li>
+                                <strong>Client Deliverables:</strong>
+                                Upon receipt of full payment for design or consulting services, the agreed-upon final
+                                deliverables shall be transferred to the client.
+                                NXT Level Limited retains a non-exclusive right to feature these works in our
+                                professional portfolio.
+                            </li>
                         </ul>
                     </div>
 
-                    <div id="data-security">
-                        <h3 class="title title-anim">4. Data Collection & Privacy:</h3 class="title title-anim">
+                    <!-- 4 -->
+                    <div id="privacy">
+                        <h3 class="title title-anim">4. Data Collection & Privacy</h3>
+
                         <p>
-                           Use of our services is subject to our Privacy Policy. We collect personal data to deliver our services, measure engagement, and improve website performance. You have the right to request access to or  correction of any personal information we hold by contacting <a href="mailto:info@nxtlevel.nz">info@nxtlevel.nz.</a>  
+                            Use of our services is subject to our Privacy Policy. We collect personal
+                            data to deliver our services, measure engagement, and improve website performance.
+                            You have the right to request access to or correction of any personal information
+                            we hold by contacting
+                            <a href="mailto:info@nxtlevel.nz">info@nxtlevel.nz</a>.
                         </p>
-                        
                     </div>
 
+                    <!-- 5 -->
+                    <div id="limitation-liability">
+                        <h3 class="title title-anim">5. Limitation of Liability</h3>
 
-                    <div id="your-rights">
-                        <h3 class="title title-anim">5. Limitation of Liability: </h3 class="title title-anim">
-                        <p>To the maximum extent permitted by law, NXT Level Limited and its affiliates shall not be held liable for any indirect,  incidental, or consequential damages, including but not limited to loss of profits, data, or business opportunities arising from the use of our services or website.  </p>
-
+                        <p>
+                            To the maximum extent permitted by law, NXT Level Limited and its affiliates
+                            shall not be held liable for any indirect, incidental, or consequential damages,
+                            including but not limited to loss of profits, data, or business opportunities
+                            arising from the use of our services or website.
+                        </p>
                     </div>
 
-                    <div id="cookies">
-                        <h3 class="title title-anim">6. Use of Analytics & Cookies</h3 class="title title-anim">
+                    <!-- 6 -->
+                    <div id="analytics-cookies">
+                        <h3 class="title title-anim">6. Use of Analytics, Cookies & Third-Party Services</h3>
+
                         <p>We use cookies, analytics, and tracking technologies to:</p>
+
                         <ul>
                             <li>Improve website performance.</li>
-                            <li>Measure engagement and traffic</li>
+                            <li>Measure engagement and website traffic.</li>
                             <li>Understand user behaviour.</li>
-
                         </ul>
+
+                        <p>
+                            Our platform may contain links to third-party tools (such as Google Analytics).
+                            We are not responsible for the privacy practices, content, or security of these external
+                            platforms.
+                        </p>
                     </div>
 
-                    <div id="cookies">
-                        <h3 class="title title-anim">6. Third-Party Services: </h3 class="title title-anim">
-                        <p>Our platform may contain links to third-party tools (e.g., Google Analytics). We are not responsible for the privacy practices, content, or security of these external platforms.  </p>
+                    <!-- 7 -->
+                    <div id="suspension-termination">
+                        <h3 class="title title-anim">7. Suspension & Termination</h3>
+
+                        <p>
+                            We reserve the right to suspend or terminate your access to our website
+                            or services immediately and without notice if we consider that you have
+                            breached these Terms or engaged in conduct detrimental to the brand.
+                        </p>
                     </div>
 
-                    <div id="contact">
-                        <h3 class="title title-anim">7. Suspension & Termination:</h3 class="title title-anim">
-                        <p>We reserve the right to suspend or terminate your access to our website or services immediately and without notice if we consider that you have breached these Terms or engaged in conduct detrimental to the brand.</p>
-                        
-                    </div>
+                    <!-- 8 -->
+                    <div id="general-provisions">
+                        <h3 class="title title-anim">8. General Provisions</h3>
 
-                    <!-- 7: Contact -->
-                    <div id="contact">
-                        <h3 class="title title-anim">8. General Provisions: </h3 class="title title-anim">
                         <ul>
-                            <li><strong>Governing Law:</strong>These Terms are governed by and must be interpreted in accordance with the laws of New Zealand. Each party submits to the jurisdiction of the Courts of New Zealand.  </li>
-                            <li><strong>Severability:</strong> If any provision of these Terms is found to be unenforceable, that provision shall be severed, and the remainder of the Terms will remain in full force. </li>
-                            <li><strong> Entire Agreement:</strong>These Terms constitute the entire agreement between the parties and supersede all prior discussions or representations. </li>
+                            <li>
+                                <strong>Governing Law:</strong>
+                                These Terms are governed by and must be interpreted in accordance
+                                with the laws of New Zealand. Each party submits to the jurisdiction
+                                of the Courts of New Zealand.
+                            </li>
+
+                            <li>
+                                <strong>Severability:</strong>
+                                If any provision of these Terms is found to be unenforceable,
+                                that provision shall be severed and the remainder of the Terms
+                                shall remain in full force.
+                            </li>
+
+                            <li>
+                                <strong>Entire Agreement:</strong>
+                                These Terms constitute the entire agreement between the parties
+                                and supersede all prior discussions or representations.
+                            </li>
                         </ul>
                     </div>
 
-                    <!-- 7: Contact -->
-                    <div id="contact">
-                        <h3 class="title title-anim">9. Contact Information: </h3 class="title title-anim">
-                        <p>For questions regarding these terms or to submit a data request, please contact:</p>
-                        <p>NXT Level Limited</p>
+                    <!-- 9 -->
+                    <div id="contact-information">
+                        <h3 class="title title-anim">9. Contact Information</h3>
+
+                        <p>
+                            For questions regarding these Terms or to submit a data request,
+                            please contact:
+                        </p>
+
+                        <p><strong>NXT Level Limited</strong></p>
+
                         <ul>
-                            <li><strong>Email:</strong><a href="mailto:info@nxtlevel.nz"> info@nxtlevel.nz  </a></li>
-                            <li><strong>Phone:</strong><a href="tel:64204504050"> +64 20 450 4050  </a></li>
-                            <li><strong>Auckland:</strong><a href="https://maps.app.goo.gl/jMi6AVPxyyN9GiNX6">47 Union Street, Auckland CBD, Auckland, New Zealand 1010</a></li>
+                            <li>
+                                <strong>Email:</strong>
+                                <a href="mailto:info@nxtlevel.nz">info@nxtlevel.nz</a>
+                            </li>
+
+                            <li>
+                                <strong>Phone:</strong>
+                                <a href="tel:+64204504050">+64 20 450 4050</a>
+                            </li>
+
+                            <li>
+                                <strong>Address:</strong>
+                                <a href="https://maps.app.goo.gl/jMi6AVPxyyN9GiNX6" target="_blank">
+                                    47 Union Street, Auckland CBD, Auckland, New Zealand 1010
+                                </a>
+                            </li>
                         </ul>
-                        
                     </div>
 
-                    <!-- 7: Contact -->
-                    <div id="contact">
-                        <h3 class="title title-anim">7. Suspension & Termination:</h3 class="title title-anim">
-                        <p>We reserve the right to suspend or terminate your access to our website or services immediately and without notice if we consider that you have breached these Terms or engaged in conduct detrimental to the brand.</p>
-                        
-                    </div>
-
-                    <p class="muted">
+                    <p class="muted mt-4">
                         <small>
-                            This Privacy Policy is provided for general informational purposes and may be updated
-                            periodically.
-                            Please review this page regularly for changes.
+                            These Terms & Conditions are provided for general informational purposes
+                            and may be updated periodically. Please review this page regularly for any changes.
                         </small>
                     </p>
 
