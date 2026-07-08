@@ -12,18 +12,14 @@ ob_start();
         <div class="row">
             <div class="col-lg-12">
                 <div class="con-page-header-content text-left">
-
                     <div class="tj-page-link">
                         <span><i class="tji-home"></i></span>
                         <span><a href="index.php">Home</a></span>
                         <span><i class="tji-arrow-right"></i></span>
                         <span><span>Service</span></span>
                     </div>
-
                 </div>
-
                 <h2 class="tj-page-title mt-2"><b>Admin Services</b></h2>
-
             </div>
         </div>
     </div>

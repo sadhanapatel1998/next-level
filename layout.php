@@ -18,19 +18,19 @@ if (!isset($pageTitle)) {
 
   <!-- Place favicon.ico in the root directory -->
   <!-- Standard Favicons -->
-<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-<link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
 
-<!-- Apple Touch Icon -->
-<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 
-<!-- Android Chrome Icons -->
-<link rel="icon" type="image/png" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+  <!-- Android Chrome Icons -->
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
 
-<!-- Web App Manifest -->
-<link rel="manifest" href="favicon_io/site.webmanifest">
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="favicon_io/site.webmanifest">
 
 
   <!-- CSS here -->
@@ -46,6 +46,7 @@ if (!isset($pageTitle)) {
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/main-1.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">
 </head>
 
 <body>
@@ -71,16 +72,16 @@ if (!isset($pageTitle)) {
   <!-- back to top start -->
   <div id="tj-back-to-top"><span id="tj-back-to-top-percentage"></span></div>
   <!-- back to top end -->
- <?php include 'includes/header.php'; ?>
- 
-<div id="smooth-wrapper">
-  <div id="smooth-content">
-    <main class="page-content">
-      <?= $content ?? '' ?>
-      <?php include 'includes/footer.php'; ?>
-    </main>
+  <?php include 'includes/header.php'; ?>
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main class="page-content">
+        <?= $content ?? '' ?>
+        <?php include 'includes/footer.php'; ?>
+      </main>
+    </div>
   </div>
-</div>
 
 
 
@@ -101,7 +102,46 @@ if (!isset($pageTitle)) {
   <script src="assets/js/wow.min-1.js"></script>
   <script src="assets/js/meanmenu-1.js"></script>
   <script src="assets/js/main-1.js"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/utils.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const input = document.querySelector("#cfPhone");
+
+      const iti = window.intlTelInput(input, {
+        initialCountry: "auto",
+        separateDialCode: true,
+        nationalMode: false,
+        autoPlaceholder: "aggressive",
+
+        // Detect country by user's IP
+        geoIpLookup: function (callback) {
+          fetch("https://ipapi.co/json/")
+            .then(res => res.json())
+            .then(data => callback(data.country_code))
+            .catch(() => callback("us"));
+        },
+
+        loadUtils: () =>
+          import("https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/utils.js")
+      });
+
+      // Convert number to international format before submitting
+      document.querySelector("form").addEventListener("submit", function () {
+        input.value = iti.getNumber();
+      });
+
+    });
+  </script>
+  <!-- <script>
+    document.querySelector("form").addEventListener("submit", function () {
+      const code = document.getElementById("countryCode").value;
+      const phone = document.getElementById("phone").value.trim();
+      document.getElementById("phone").value = code + phone;
+    });
+  </script> -->
+
 </body>
 
 </html>

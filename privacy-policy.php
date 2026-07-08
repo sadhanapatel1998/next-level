@@ -30,7 +30,7 @@ ob_start();
           <!-- 1: Information We Collect -->
           <div id="info-we-collect">
             <h3 class="title title-anim">1. Introduction: </h3 class="title title-anim">
-            <p>NXT Level Limited (“we,” “us,” “our”) is committed to protecting your privacy. This policy outlines how we collect, use,  and protect your personal information in compliance with the New Zealand Privacy Act 2020 and relevant  international data protection standards. </p>
+            <p>Nxtlevel Limited (“we,” “us,” “our”) is committed to protecting your privacy. This policy outlines how we collect, use,  and protect your personal information in compliance with the New Zealand Privacy Act 2020 and relevant  international data protection standards. </p>
           </div>
 
           <!-- 2: How We Use -->
@@ -98,9 +98,7 @@ ob_start();
           <div id="contact">
             <h3 class="title title-anim">7. Cookies & Tracking: </h3 class="title title-anim">
             <p>We use cookies to monitor website usage and improve performance. You may disable cookies in your browser settings, though some features of our site may not function properly as a result.</p>
-            
           </div>
-
         </div>
       </div>
     </div>

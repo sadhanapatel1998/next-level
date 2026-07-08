@@ -1103,7 +1103,10 @@ START: Theme Header CSS
   background-color: var(--tj-color-common-white);
   display: block;
 }
-
+.header-area.sticky .logo img{
+  background-color: var(--tj-color-common-black);
+      max-width: 90px;
+}
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
   .header-area.sticky {
@@ -1115,6 +1118,7 @@ START: Theme Header CSS
     margin-inline-start: 0;
     -webkit-margin-end: 0;
     margin-inline-end: 0;
+            background-color: #000;
   }
 }
 
@@ -4612,7 +4616,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li a:hover {
-  color: var(--tj-color-theme-primary);
+    color: #fff;
 }
 
 .hamburger_menu .mean-nav ul li a.mean-expand {
@@ -4637,7 +4641,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li a.mean-expand.mean-clicked {
-  color: var(--tj-color-theme-primary);
+color: #fff;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -12963,11 +12967,14 @@ only screen and (min-width: 576px) and (max-width: 767px),
 } */
 
 @media (max-width: 575px) {
-  .call-box .call-icon {
-    font-size: 18px;
-    height: 45px;
-    width: 45px;
-  }
+    .call-box .call-icon {
+        font-size: 16px;
+        height: 25px;
+        width: 25px;
+    }
+    .nls-container {
+    width: 100% !important;
+}
 }
 
 .call-box .title {
@@ -13014,7 +13021,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 575px) {
   .call-box .number {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
@@ -14459,7 +14466,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-size: 16px;
   color: var(--tj-color-text-body-3);
   position: absolute;
-  top: 10px;
+  top: 8px;
   inset-inline-start: 0;
   pointer-events: none;
   -webkit-transition: all 0.2s linear;
@@ -14604,7 +14611,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input input[type=tel],
 .contact-form.style-2 .form-input input[type=text],
 .contact-form.style-2 .form-input input[type=email] {
-  color: var(--tj-color-text-body-2);
+  color: #fff;
   padding: 11px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -33858,7 +33865,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .contact-form .form-input input:focus,
 .contact-form .form-input textarea:focus,
 .contact-form .form-input select:focus {
-  border-color: #fff;
+    border-color: #fff;
+    border-bottom: 1px dashed #c9d1d1;
 }
 
 /* FORCE WHITE PLACEHOLDER — OVERRIDE THEME */
@@ -34005,6 +34013,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     max-width: 100%;
   }
 }
+/* MOBILE */
+@media (max-width: 999px) {
+.contact-form .country-code-phone .iti__country-container {
+    top: -7px !important;
+}
+}
 
 .team-card {
   padding: 15px;
@@ -34029,4 +34043,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .team-info {
   text-align: center;
   margin-top: 12px;
+}
+.contact-form  .country-code-phone .iti { 
+  width: 100%;
+ }
+.contact-form  .country-code-phone .iti__country-container {
+    top: -2px;
 }

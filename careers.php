@@ -163,7 +163,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="about-content-area text-center mb-5">
                     <div class="sec-heading">
                         <span class="sub-title wow fadeInUp" data-wow-delay=".3s">
-                            <i class="tji-box"></i>Career <strong>NXT Level</strong> Limited
+                            <i class="tji-box"></i>Career <strong>NXT Level</strong>
                         </span>
                         <h3 class="sec-title title-anim">
                             We empower professionals with the tools, training, and

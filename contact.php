@@ -123,14 +123,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <label class="cf-label">Email Address <span>*</span></label>
                 </div>
               </div>
-
+              <!-- 
               <div class="col-sm-6">
-                <div class="form-input">
-                  <input type="tel" name="cfPhone" placeholder=" " required>
-                  <label class="cf-label">Phone Number <span>*</span></label>
+                <div class="form-input country-code-phone">
+                  <div style="display:flex;">
+                    <select id="countryCode" style="width:20px;">
+                      <option value="+91">🇮🇳 +91</option>
+                      <option value="+1">🇺🇸 +1</option>
+                      <option value="+44">🇬🇧 +44</option>
+                      <option value="+971">🇦🇪 +971</option>
+                    </select>
+                    <div>
+                      <input type="tel" name="cfPhone" placeholder=" " required>
+                      <label class="cf-label">Phone Number <span>*</span></label>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="col-sm-6 country-code-phone">
+                <div class="form-input ">
+                  <input type="tel" id="cfPhone" name="cfPhone" placeholder=" " required>
+                  <!-- <label class="cf-label">Phone Number <span>*</span></label> -->
                 </div>
               </div>
-
               <div class="col-sm-6">
                 <div class="form-input">
                   <div class="tj-nice-select-box">
@@ -164,7 +180,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </button>
               </div>
-
             </div>
           </form>
 

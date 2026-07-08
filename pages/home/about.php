@@ -54,7 +54,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="about-img-area style-2 h-100 wow fadeInUp" data-wow-delay=".4s">
           <div class="about-img overflow-hidden">
-            <img src="assets/images/about/about-5.jpeg" alt="About NXT Level Limited">
+            <img src="assets/images/about/about-5.jpeg" alt="About NXT Level">
           </div>
 
           <div class="box-area style-2 mt-3">

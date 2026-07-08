@@ -61,14 +61,14 @@ ob_start();
                             <li>
                                 <strong>Company Ownership:</strong>
                                 All branding, text, and original design elements on this website are the exclusive
-                                property of NXT Level Limited.
+                                property of Nxtlevel Limited.
                             </li>
 
                             <li>
                                 <strong>Client Deliverables:</strong>
                                 Upon receipt of full payment for design or consulting services, the agreed-upon final
                                 deliverables shall be transferred to the client.
-                                NXT Level Limited retains a non-exclusive right to feature these works in our
+                                Nxtlevel Limited retains a non-exclusive right to feature these works in our
                                 professional portfolio.
                             </li>
                         </ul>
@@ -92,7 +92,7 @@ ob_start();
                         <h3 class="title title-anim">5. Limitation of Liability</h3>
 
                         <p>
-                            To the maximum extent permitted by law, NXT Level Limited and its affiliates
+                            To the maximum extent permitted by law, Nxtlevel Limited and its affiliates
                             shall not be held liable for any indirect, incidental, or consequential damages,
                             including but not limited to loss of profits, data, or business opportunities
                             arising from the use of our services or website.
@@ -165,7 +165,7 @@ ob_start();
                             please contact:
                         </p>
 
-                        <p><strong>NXT Level Limited</strong></p>
+                        <p><strong>Nxtlevel Limited</strong></p>
 
                         <ul>
                             <li>
