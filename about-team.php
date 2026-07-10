@@ -44,7 +44,7 @@ ob_start();
                     <!-- <img src="assets/images/team/male-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Harry Ghadiali</h3>
-                        <span>Director & Co-Founder</span>
+                        <span>Director</span>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ ob_start();
                     <!-- <img src="assets/images/team/male-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Dylan Ferreira</h3>
-                        <span>Director & Co-Founder</span>
+                        <span>Director</span>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ ob_start();
                     <!-- <img src="assets/images/team/female-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Himadri Vyas</h3>
-                        <span>Marketing, Content & Operations Support (IN)</span>
+                        <span> Operations Head </span>
                     </div>
                 </div>
             </div>

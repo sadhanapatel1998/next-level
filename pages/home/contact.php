@@ -137,6 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <div class="col-sm-6">
                 <div class="form-input">
                   <input type="tel" name="phone" placeholder="Phone Number *" required>
+                
                 </div>
               </div>
 

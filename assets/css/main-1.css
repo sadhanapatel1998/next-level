@@ -1100,13 +1100,10 @@ START: Theme Header CSS
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
   opacity: 1;
   visibility: visible;
-  background-color: var(--tj-color-common-white);
+  background-color: #000;
   display: block;
 }
-.header-area.sticky .logo img{
-  background-color: var(--tj-color-common-black);
-      max-width: 90px;
-}
+
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 575px) {
   .header-area.sticky {
@@ -1118,7 +1115,6 @@ START: Theme Header CSS
     margin-inline-start: 0;
     -webkit-margin-end: 0;
     margin-inline-end: 0;
-            background-color: #000;
   }
 }
 
@@ -1413,7 +1409,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .mainmenu ul>li>a {
   position: relative;
   font-size: 16px;
-  color: var(--tj-color-heading-primary);
+  color: #fff;
   display: block;
   padding: 37px 0;
   font-weight: var(--tj-fw-medium);
@@ -1449,7 +1445,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .mainmenu ul>li.current-menu-ancestor>a,
 .mainmenu ul>li.current-menu-item>a,
 .mainmenu ul>li:hover>a {
-  color: var(--tj-color-theme-primary);
+  color: #fff;
 }
 
 .mainmenu ul>li.current-menu-ancestor>a::after,
@@ -1470,7 +1466,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: absolute;
   top: 100%;
   inset-inline-start: 0;
-  width: 220px;
+  width: 280px;
   top: 100%;
   inset-inline-start: 0;
   z-index: 99;
@@ -1764,7 +1760,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: block;
   width: 18px;
   height: 2px;
-  background-color: var(--tj-color-common-black);
+  background-color: #fff;
   border-radius: 10px;
   -webkit-margin-end: auto;
   margin-inline-end: auto;
@@ -4616,7 +4612,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li a:hover {
-    color: #fff;
+  color: var(--tj-color-theme-primary);
 }
 
 .hamburger_menu .mean-nav ul li a.mean-expand {
@@ -4641,7 +4637,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .hamburger_menu .mean-nav ul li a.mean-expand.mean-clicked {
-color: #fff;
+  color: var(--tj-color-theme-primary);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -12967,14 +12963,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 } */
 
 @media (max-width: 575px) {
-    .call-box .call-icon {
-        font-size: 16px;
-        height: 25px;
-        width: 25px;
-    }
-    .nls-container {
-    width: 100% !important;
-}
+  .call-box .call-icon {
+    font-size: 18px;
+    height: 45px;
+    width: 45px;
+  }
 }
 
 .call-box .title {
@@ -13021,7 +13014,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media (max-width: 575px) {
   .call-box .number {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
@@ -14466,7 +14459,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   font-size: 16px;
   color: var(--tj-color-text-body-3);
   position: absolute;
-  top: 8px;
+  top: 10px;
   inset-inline-start: 0;
   pointer-events: none;
   -webkit-transition: all 0.2s linear;
@@ -14611,7 +14604,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .contact-form.style-2 .form-input input[type=tel],
 .contact-form.style-2 .form-input input[type=text],
 .contact-form.style-2 .form-input input[type=email] {
-  color: #fff;
+  color: var(--tj-color-text-body-2);
   padding: 11px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -33865,8 +33858,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .contact-form .form-input input:focus,
 .contact-form .form-input textarea:focus,
 .contact-form .form-input select:focus {
-    border-color: #fff;
-    border-bottom: 1px dashed #c9d1d1;
+  border-color: #fff;
 }
 
 /* FORCE WHITE PLACEHOLDER — OVERRIDE THEME */
@@ -34013,12 +34005,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     max-width: 100%;
   }
 }
-/* MOBILE */
-@media (max-width: 999px) {
-.contact-form .country-code-phone .iti__country-container {
-    top: -7px !important;
-}
-}
 
 .team-card {
   padding: 15px;
@@ -34043,10 +34029,4 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .team-info {
   text-align: center;
   margin-top: 12px;
-}
-.contact-form  .country-code-phone .iti { 
-  width: 100%;
- }
-.contact-form  .country-code-phone .iti__country-container {
-    top: -2px;
 }

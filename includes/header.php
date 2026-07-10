@@ -189,63 +189,25 @@
                     <div class="menu-area d-none d-lg-inline-flex align-items-center">
                         <nav id="mobile-menu" class="mainmenu">
                             <ul>
-                                <li class="current-menu-ancestor"><a href="index.php">Home</a>
-                                </li>
+                                <li class="current-menu-ancestor"><a href="index.php">Home</a></li>
                                 <li class="has-dropdown"><a href="#">About</a>
                                     <ul class="sub-menu">
                                         <li><a href="about.php">Our Story</a></li>
                                         <li><a href="about-team.php">Our Team</a></li>
                                     </ul>
                                 </li>
-
-                                </li>
+                                
                                 <li class="has-dropdown"><a href="#">Services</a>
-                                    <ul class="sub-menu  mega-menu-service">
-                                        <li>
-                                            <a class="mega-menu-service-single" href="admin-services.php">
-                                                <span class="mega-menu-service-title">Admin Services</span>
-                                                <span class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i>
-                                                    <i class="tji-arrow-right-long"></i></span>
-                                            </a>
-                                        </li>
-                                        <li> <a class="mega-menu-service-single" href="shared-services-outsourcing.php">
-                                                <span class="mega-menu-service-title">Shared Services
-                                                    Outsourcing</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="partnered-support-model.php">
-                                                <span class="mega-menu-service-title">Partnered Support
-                                                    Model</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <!-- <li> <a class="mega-menu-service-single" href="digital-channel-partners.php">
-                                                <span class="mega-menu-service-icon">
-                                                    <i class="tji-excellence"></i>
-                                                </span> <span class="mega-menu-service-title">Digital Channel
-                                                    Partners</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li> -->
-                                        <li> <a class="mega-menu-service-single" href="web-design-and-development.php">
-                                                <span class="mega-menu-service-title">App & Website
-                                                    Development</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <!-- <li> <a class="mega-menu-service-single" href="creative-communication.php">
-                                                <span class="mega-menu-service-title">Creative
-                                                    Communication</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i></span></a></li> -->
-                                        <li> <a class="mega-menu-service-single" href="seo.php">
-                                                <span class="mega-menu-service-title">SEO Service</span> <span
-                                                    class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="social-media.php">
-                                                <span class="mega-menu-service-title">Social Media</span>
-                                                <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-
+                                    <ul class="sub-menu">
+                                        <li><a href="admin-services.php">Admin Services</a></li>
+                                        <li><a href="shared-services-outsourcing.php">Shared Services Outsourcing</a></li>
+                                        <li><a href="partnered-support-model.php">Partnered Support Model</a></li>
+                                        <li><a href="web-design-and-development.php">App & Website Development</a></li>
+                                        <li><a href="seo.php">SEO Services</a></li>
+                                        <li><a href="social-media.php">Social Media</a></li>
                                     </ul>
                                 </li>
+                                
                                 <li><a href="contact.php">Get in Touch</a></li>
 
                                 <li><a href="careers.php">Careers</a></li>
@@ -298,66 +260,14 @@
                                         <li><a href="about-team.php">Our Team</a></li>
                                     </ul>
                                 </li>
-
-                                </li>
                                 <li class="has-dropdown"><a href="#">Services</a>
-                                    <ul class="sub-menu  mega-menu-service">
-                                        <li> <a class="mega-menu-service-single" href="admin-services.php"> <span
-                                                    class="mega-menu-service-icon">
-                                                    <i class="tji-service-1"></i>
-                                                </span> <span class="mega-menu-service-title">Back-office Support
-                                                </span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="shared-services-outsourcing.php">
-                                                <span class="mega-menu-service-icon">
-                                                    <i class="tji-service-2"></i>
-                                                </span> <span class="mega-menu-service-title">Shared Services
-                                                    Outsourcing</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="partnered-support-model.php">
-                                                <span class="mega-menu-service-icon">
-                                                    <i class="tji-service-3"></i>
-                                                </span> <span class="mega-menu-service-title">Partnered Support
-                                                    Model</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="digital-channel-partners.php">
-                                                <span class="mega-menu-service-icon">
-                                                    <i class="tji-excellence"></i>
-                                                </span> <span class="mega-menu-service-title">Digital Channel
-                                                    Partners</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="web-design-and-development.php">
-                                                <span class="mega-menu-service-icon">
-                                                    <i class="tji-service-4"></i>
-                                                </span> <span class="mega-menu-service-title">App & Website
-                                                    Development</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="creative-communication.php">
-                                                <span class="mega-menu-service-icon">
-                                                    <i class="tji-service-5"></i>
-                                                </span> <span class="mega-menu-service-title">Creative
-                                                    Communication</span> <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="seo.php"> <span
-                                                    class="mega-menu-service-icon">
-                                                    <i class="tji-service-6"></i>
-                                                </span> <span class="mega-menu-service-title">SEO Service</span> <span
-                                                    class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="social-media.php"> <span
-                                                    class="mega-menu-service-icon">
-                                                    <i class="tji-service-1"></i>
-                                                </span> <span class="mega-menu-service-title">Social Media</span>
-                                                <span class="mega-menu-service-nav"><i
-                                                        class="tji-arrow-right-long"></i><i
-                                                        class="tji-arrow-right-long"></i></span></a></li>
-
+                                    <ul class="sub-menu">
+                                        <li><a href="admin-services.php">Admin Services</a></li>
+                                        <li><a href="shared-services-outsourcing.php">Shared Services Outsourcing</a></li>
+                                        <li><a href="partnered-support-model.php">Partnered Support Model</a></li>
+                                        <li><a href="web-design-and-development.php">App & Website Development</a></li>
+                                        <li><a href="seo.php">SEO Services</a></li>
+                                        <li><a href="social-media.php">Social Media</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="contact.php">Get in Touch</a></li>

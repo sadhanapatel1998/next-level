@@ -75,12 +75,17 @@ ob_start();
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="image-box wow fadeInUp" data-wow-delay=".3s">
-                                        <img src="assets/images/service/bposer2.jpg" alt="Admin Support">
+                                        <img src="assets/images/service/bposer2.jpg"
+                                             alt="Admin Support"
+                                             style="width:420px; height:420px; object-fit:cover; display:block;">
                                     </div>
                                 </div>
+                        
                                 <div class="col-sm-6">
                                     <div class="image-box wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/images/service/bposer3.jpg" alt="Business Admin Services">
+                                        <img src="assets/images/service/bposer3.jpg"
+                                             alt="Business Admin Services"
+                                             style="width:420px; height:420px; object-fit:cover; display:block;">
                                     </div>
                                 </div>
                             </div>
