@@ -36,49 +36,65 @@ ob_start();
                 </div>
             </div>
         </div>
-
         <div class="row row-gap-4 rightSwipeWrap">
 
-            <div class="col-md-3 col-12">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="team-card">
-                    <!-- <img src="assets/images/team/male-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Harry Ghadiali</h3>
                         <span>Director</span>
+                        <a href="mailto:harry@nxtlevel.nz" class="team-link">
+                            harry@nxtlevel.nz
+                        </a>
+                        <a href="tel:0204504050" class="team-phone">
+                            0204504050
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="team-card">
-                    <!-- <img src="assets/images/team/male-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Dylan Ferreira</h3>
                         <span>Director</span>
+                        <a href="mailto:dylan@nxtlevel.nz" class="team-link">
+                            dylan@nxtlevel.nz
+                        </a>
+                        <a href="tel:021952718" class="team-phone">
+                            021952718
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="team-card">
-                    <!-- <img src="assets/images/team/male-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Tracy Berge</h3>
                         <span>Director</span>
+                        <a href="mailto:tracy@nxtlevel.nz" class="team-link">
+                            tracy@nxtlevel.nz
+                        </a>
+                        <a href="tel:021625201" class="team-phone">
+                            021625201
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-lg-3 col-md-6 col-12">
                 <div class="team-card">
-                    <!-- <img src="assets/images/team/female-demo.jpg" class="team-img"> -->
                     <div class="team-info">
                         <h3>Himadri Vyas</h3>
-                        <span> Operations Head </span>
+                        <span>Operations Manager</span>
+                        <a href="mailto:info@nxtlevel.nz" class="team-link">
+                            info@nxtlevel.nz
+                        </a>
+                        <!-- Phone number not visible in screenshot -->
                     </div>
                 </div>
             </div>
-
 
         </div>
     </div>

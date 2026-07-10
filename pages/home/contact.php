@@ -134,10 +134,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
               </div>
 
-              <div class="col-sm-6">
+              <div class="col-sm-6 country-code-phone">
                 <div class="form-input">
-                  <input type="tel" name="phone" placeholder="Phone Number *" required>
-                
+                 <input type="tel" id="cfPhone" name="cfPhone" placeholder=" " required>             
                 </div>
               </div>
 
